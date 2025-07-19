@@ -1,0 +1,16 @@
+Random Seed:  10
+====================round 0=====================
+Prepare the network and data.
+Loading CLIP (backbone: ViT-B/32)
+Building custom CLIP
+Initializing a generic context
+Initial context: "X X X X X X X X"
+Number of context words (tokens): 8
+Turning off gradients in both the image and the text encoder
+DHD
+DHD
+Training.
+Epoch	Train loss	Train_SRCC	Test_SRCC	Test_PLCC
+1	0.030		0.2869		0.6909	0.7117	0.5105
+2	0.009		0.6690		0.7829	0.8021	0.5947
+3	0.006		0.7918		0.8413	0.8497	0.6579
