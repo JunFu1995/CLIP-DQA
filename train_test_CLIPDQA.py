@@ -144,7 +144,7 @@ def main():
     parser.add_argument('--batch_size', dest='batch_size', type=int,
                         default=64, help='Batch size.')
     parser.add_argument('--epochs', dest='epochs', type=int,
-                        default=25, help='Epochs for training.')
+                        default=50, help='Epochs for training.')
     parser.add_argument('--weight_decay', dest='weight_decay', type=float,
                         default=5e-4, help='Weight decay.')
     parser.add_argument('--dataset', dest='dataset', type=str, default='DHD',
